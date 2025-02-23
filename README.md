@@ -1,2 +1,2 @@
-# Music_App
-Spotify Clone - Music Streaming Web App
+# Music App
+A simple Spotify clone using HTML, CSS, JS.
