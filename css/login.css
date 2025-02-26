@@ -1,0 +1,118 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #17a447;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #bbb;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.divider span {
+    background: #121212;
+    padding: 0 10px;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}

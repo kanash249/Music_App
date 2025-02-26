@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+
+.flex
+{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.bg-black{
+
+    background-color: black;
+    color: white;
+    }
+    .invert{
+        filter: invert(1);
+    }
+
+    .bg-grey{
+        background-color: #121212;
+    }
+ .rounded{
+    border-radius: 7px;
+ }
+ .m2{
+    margin: 5px;
+ }
+ .p1{
+    padding: 10px;
+ }
+
+ /* CSS for styling a dark-themed scrollbar */
+/* Hide scrollbar initially */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show scrollbar when scrolling */
+body:hover ::-webkit-scrollbar {
+    opacity: 1;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+    border: 2px solid #222;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* Hover effect for thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
